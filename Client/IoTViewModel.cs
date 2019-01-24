@@ -18,9 +18,9 @@ namespace Client
         /// </summary>
         private HubConnection hubConnection;
 
-        private UrlService urlService;
+        private readonly UrlService urlService;
 
-        private ILogger<IoTViewModel> logger;
+        private readonly ILogger<IoTViewModel> logger;
 
         public IoTViewModel(UrlService service, ILogger<IoTViewModel> logger)
         {
@@ -76,11 +76,15 @@ namespace Client
 
         private void OnMessageReceived(string message)
         {
-            Console.WriteLine(message);
             JObject json = JObject.Parse(message);
-            Console.WriteLine(json.GetValue("id"));
-            //IDictionary<string,object> dict = Json.JsonParser.FromJson(message);
-            //dict.Keys.ToList().ForEach(x => Console.WriteLine(x));
+            bool converted = int.TryParse(json.GetValue("id").ToString(), out int result);
+
+            if (!converted) { Console.WriteLine("Could not convert sent id");  return; }
+
+            Console.ForegroundColor = (ConsoleColor)(result % 15);
+            Console.WriteLine($"{DateTime.Now} | Button '{result}' sent: {message}");
+            Console.ForegroundColor = ConsoleColor.White;
+            
         }
 
 

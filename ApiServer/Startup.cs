@@ -26,7 +26,7 @@ namespace ApiServer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddSingleton<IoTHub>();
+            services.AddSingleton<IHub, IoTHub>();
             services.AddSignalR();
         }
 

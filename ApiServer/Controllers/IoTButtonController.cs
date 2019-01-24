@@ -12,10 +12,10 @@ namespace ApiServer.Controllers
     [ApiController]
     public class IoTButtonController : ControllerBase
     {
-        private readonly IoTHub hub;
-        private ILogger<IoTButtonController> logger;
+        private readonly IHub hub;
+        private readonly ILogger<IoTButtonController> logger;
 
-        public IoTButtonController(IoTHub hub, ILogger<IoTButtonController> logger)
+        public IoTButtonController(IHub hub, ILogger<IoTButtonController> logger)
         {
             this.hub = hub;
             this.logger = logger;

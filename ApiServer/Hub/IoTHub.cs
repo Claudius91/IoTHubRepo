@@ -8,6 +8,7 @@ namespace Server.Manager
     using System.Resources;
     using System.Runtime.CompilerServices;
     using System.Threading.Tasks;
+    using ApiServer;
     using Microsoft.AspNetCore.SignalR;
     using Microsoft.Extensions.Logging;
 
@@ -15,7 +16,7 @@ namespace Server.Manager
     /// The waiter hub.
     /// </summary>
     /// <seealso cref="Microsoft.AspNetCore.SignalR.Hub" />
-    public class IoTHub : Hub
+    public class IoTHub : Hub, IHub
     {
         /// <summary>
         /// The waiter identifier to connection identifier dictionary.
