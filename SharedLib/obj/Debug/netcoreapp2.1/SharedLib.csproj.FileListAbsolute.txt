@@ -16,3 +16,12 @@ C:\Users\Claudius\Documents\FHWN\1.Semester\Netzwerke\IoTButtonWebApi\SharedLib\
 C:\Users\Claudius\Documents\FHWN\1.Semester\Netzwerke\IoTButtonWebApi\SharedLib\obj\Debug\netcoreapp2.1\SharedLib.AssemblyInfo.cs
 C:\Users\Claudius\Documents\FHWN\1.Semester\Netzwerke\IoTButtonWebApi\SharedLib\obj\Debug\netcoreapp2.1\SharedLib.dll
 C:\Users\Claudius\Documents\FHWN\1.Semester\Netzwerke\IoTButtonWebApi\SharedLib\obj\Debug\netcoreapp2.1\SharedLib.pdb
+C:\Users\Claudius\Source\Repos\IoTHubRepo\SharedLib\bin\Debug\netcoreapp2.1\SharedLib.deps.json
+C:\Users\Claudius\Source\Repos\IoTHubRepo\SharedLib\bin\Debug\netcoreapp2.1\SharedLib.dll
+C:\Users\Claudius\Source\Repos\IoTHubRepo\SharedLib\bin\Debug\netcoreapp2.1\SharedLib.pdb
+C:\Users\Claudius\Source\Repos\IoTHubRepo\SharedLib\obj\Debug\netcoreapp2.1\SharedLib.csprojAssemblyReference.cache
+C:\Users\Claudius\Source\Repos\IoTHubRepo\SharedLib\obj\Debug\netcoreapp2.1\SharedLib.csproj.CoreCompileInputs.cache
+C:\Users\Claudius\Source\Repos\IoTHubRepo\SharedLib\obj\Debug\netcoreapp2.1\SharedLib.AssemblyInfoInputs.cache
+C:\Users\Claudius\Source\Repos\IoTHubRepo\SharedLib\obj\Debug\netcoreapp2.1\SharedLib.AssemblyInfo.cs
+C:\Users\Claudius\Source\Repos\IoTHubRepo\SharedLib\obj\Debug\netcoreapp2.1\SharedLib.dll
+C:\Users\Claudius\Source\Repos\IoTHubRepo\SharedLib\obj\Debug\netcoreapp2.1\SharedLib.pdb

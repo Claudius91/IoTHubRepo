@@ -1,7 +1,4 @@
 ﻿
-
-using SharedLib;
-
 namespace Client
 {
     using Microsoft.Extensions.DependencyInjection;
@@ -10,6 +7,7 @@ namespace Client
     using System.Net.Http;
     using System.Text;
     using Microsoft.Extensions.Logging;
+    using SharedLib;
 
     /// <summary>
     /// The application service class. Sets dependency injection up.
@@ -23,7 +21,8 @@ namespace Client
         {
             var services = new ServiceCollection();
 
-            services.AddTransient<UrlService>();
+            services.AddSingleton<IoTViewModel>();
+            services.AddSingleton<UrlService>();
             services.AddLogging(coll =>
             {
                 coll.AddConsole();

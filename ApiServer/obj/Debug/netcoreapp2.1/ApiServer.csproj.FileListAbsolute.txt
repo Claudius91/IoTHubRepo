@@ -26,3 +26,17 @@ C:\Users\Claudius\Documents\FHWN\1.Semester\Netzwerke\IoTButtonWebApi\ApiServer\
 C:\Users\Claudius\Documents\FHWN\1.Semester\Netzwerke\IoTButtonWebApi\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.RazorTargetAssemblyInfo.cache
 C:\Users\Claudius\Documents\FHWN\1.Semester\Netzwerke\IoTButtonWebApi\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.dll
 C:\Users\Claudius\Documents\FHWN\1.Semester\Netzwerke\IoTButtonWebApi\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.pdb
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\bin\Debug\netcoreapp2.1\ApiServer.deps.json
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\bin\Debug\netcoreapp2.1\ApiServer.runtimeconfig.json
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\bin\Debug\netcoreapp2.1\ApiServer.runtimeconfig.dev.json
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\bin\Debug\netcoreapp2.1\ApiServer.dll
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\bin\Debug\netcoreapp2.1\ApiServer.pdb
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.csprojAssemblyReference.cache
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.csproj.CoreCompileInputs.cache
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.RazorAssemblyInfo.cache
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.RazorAssemblyInfo.cs
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.AssemblyInfoInputs.cache
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.AssemblyInfo.cs
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.RazorTargetAssemblyInfo.cache
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.dll
+C:\Users\Claudius\Source\Repos\IoTHubRepo\ApiServer\obj\Debug\netcoreapp2.1\ApiServer.pdb
