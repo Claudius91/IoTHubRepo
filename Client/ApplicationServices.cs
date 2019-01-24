@@ -40,7 +40,7 @@ namespace Client
         /// <summary>
         /// The instance lock.
         /// </summary>
-        private static object _instanceLock = new object();
+        private static readonly object _instanceLock = new object();
 
         /// <summary>
         /// Gets the instance.

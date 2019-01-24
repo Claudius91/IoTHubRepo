@@ -81,7 +81,7 @@ namespace Client
 
             if (!converted) { Console.WriteLine("Could not convert sent id");  return; }
 
-            Console.ForegroundColor = (ConsoleColor)(result % 15);
+            Console.ForegroundColor = (ConsoleColor)(result % 15) + 1;
             Console.WriteLine($"{DateTime.Now} | Button '{result}' sent: {message}");
             Console.ForegroundColor = ConsoleColor.White;
             
